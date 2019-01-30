@@ -1,0 +1,136 @@
+.body{
+
+	margin: 30px;
+	padding: 20px;
+}
+
+.box{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+background-color: #FCF5BD;
+display: flex;  /*creating flex container*/
+/*flex-direction:row;/*decides direction of container element on main axis start from left corner*/
+/*flex-wrap: wrap-reverse;/*decides when item dont fit the conatiner where to land*/
+flex-flow: row wrap;
+align-items:center;
+justify-content: space-around;
+
+
+}
+
+
+
+#d1 {
+background-color: #EEE7B0;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+color: white;
+/*flex-basis: auto;/*defines the amount of space it can take if auto takes a space as much for content*/
+/*flex-grow: 2;/*ratio to grow from basis*/
+/*flex-shrink: 1;/*ratio to shrink to basis */
+flex: 2 1 auto;/*shorthand grow shrink basis*/
+
+
+}
+
+
+
+#d2 {
+background-color: #D9D3A1;
+width: 100px;
+height: 50px;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+color: white;
+}
+
+#d3 {
+background-color: #C7C294;
+width: 150px;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+color: white;
+
+}
+#d4 {
+background-color: #7a7a52;
+width: 50px;
+height: 50px;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+color: white;
+
+}
+#d5 {
+background-color: #EEE7B0;
+width: 200px;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+color: white;
+
+}
+#d6 {
+background-color: #D9D3A1;
+width: 100px;
+height: 50px;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+color: white;
+}
+
+#d7 {
+background-color: #C7C294;
+width: 150px;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+color: white;
+
+}
+
+#d8 {
+background-color: #7a7a52;
+
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+color: white;
+
+
+}
+/*Designing navigation bar using flexbox*/
+nav ul{
+ 
+    height: 100px;
+   list-style-type: none;
+	display: flex;
+	background-color: #68a095;
+	justify-content:flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+
+
+}
+li{ 
+
+
+text-decoration:none;
+flex: 1 1 auto;
+
+}
+a{
+
+    font-weight: bold;
+	color: #9bf2df;
+	font-style: 
+}
+a:hover{
+color: white;
+}
